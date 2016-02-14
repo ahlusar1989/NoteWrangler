@@ -35,8 +35,6 @@ You can open another browser tab at: `http://127.0.0.1:8080/debug?port=5858` to 
 
 ## Additional Resources
 
-For more information on AngularJS and other kick-butt languages check out [Code School](https://www.codeschool.com/)!
-
 [angular]: http://angularjs.org/
 [git]: http://git-scm.com/
 [npm]: https://www.npmjs.org/
