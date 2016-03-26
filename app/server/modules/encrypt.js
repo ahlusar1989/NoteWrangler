@@ -1,5 +1,5 @@
 var bcrypt, encryptionUtil;
-bcrypt = require('bcrypt');
+bcrypt = require('bcryptjs');
 var salt = "$2a$10$4u0KgeI40vhqD4DN73Ljsu"
 
 // This is a simplistic password encryption helper that uses bcrypt.

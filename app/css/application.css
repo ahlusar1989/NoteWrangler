@@ -613,10 +613,10 @@ img {
     margin-bottom: 0;
     border-bottom: none; }
   .list-item:hover, .list-item:focus, .list-item:active {
-    background: #2d343c;
+    background: #2d353c;
     color: #0F6A85; }
   .list-item.active {
-    background: #2d343c;
+    background: #2d353c;
     color: #0F6A85; }
 
 .stretch, .card-hidden, .panel {
@@ -883,10 +883,10 @@ i.icon.after {
     margin-bottom: 0;
     border-bottom: none; }
   .sort-menu-item:hover, .sort-menu-item:focus, .sort-menu-item:active {
-    background: #2d343c;
+    background: #2d353c;
     color: #0F6A85; }
   .sort-menu-item.active {
-    background: #2d343c;
+    background: #2d353c;
     color: #0F6A85; }
 
 .tooltip {
