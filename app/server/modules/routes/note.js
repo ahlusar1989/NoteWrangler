@@ -1,3 +1,4 @@
+
 var models = require('../models');
 var Note = models.Note;
 var User = models.User;

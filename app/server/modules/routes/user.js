@@ -1,5 +1,6 @@
 var models = require('../models');
 var User = models.User;
+
 var Note = models.Note;
 var userSafeParams = ['id', 'name', 'username', 'bio', 'twitter_handle', 'site'];
 

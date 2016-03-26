@@ -1,6 +1,6 @@
 {
-  "name": "note-wrangler",
-  "version": "0.0.0",
+  "name": "saran-note-wrangler",
+  "version": "0.0.1",
   "dependencies": {
     "abbrev": {
       "version": "1.0.7",
@@ -36,6 +36,31 @@
       "version": "1.0.0",
       "from": "amdefine@>=0.0.4",
       "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz"
+    },
+    "angular": {
+      "version": "1.5.3",
+      "from": "angular@latest",
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.5.3.tgz"
+    },
+    "angular-animate": {
+      "version": "1.5.3",
+      "from": "angular-animate@latest",
+      "resolved": "https://registry.npmjs.org/angular-animate/-/angular-animate-1.5.3.tgz"
+    },
+    "angular-aria": {
+      "version": "1.5.3",
+      "from": "angular-aria@latest",
+      "resolved": "https://registry.npmjs.org/angular-aria/-/angular-aria-1.5.3.tgz"
+    },
+    "angular-material": {
+      "version": "1.0.6",
+      "from": "angular-material@latest",
+      "resolved": "https://registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz"
+    },
+    "angular-messages": {
+      "version": "1.5.3",
+      "from": "angular-messages@latest",
+      "resolved": "https://registry.npmjs.org/angular-messages/-/angular-messages-1.5.3.tgz"
     },
     "ansi-regex": {
       "version": "2.0.0",

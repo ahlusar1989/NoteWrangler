@@ -17,57 +17,58 @@ module.exports = {
     // User seeds
     User.findOrCreate({
       "username": "zeldman",
-      "name": "Jeffery Zeldman",
-      "bio": "Founder, Happy Cog studios. Author, Designing With Web Standards. Publisher, A List Apart, A Book Apart.",
-      "twitter_handle": "@zeldman",
+      "name": "Saran Ahluwalia",
+      "bio": "Designer, Software Engineer, Learner.",
+      "twitter_handle": "@sahluwalia",
       "site": "zeldman.com"
     });
 
     User.findOrCreate({
-      "username": "b_green",
-      "name": "Brad Green",
-      "bio": "I work at Google where I manage AngularJS and Google's internal sales productivity applications. I'm a dad.",
-      "twitter_handle": "@bradlygreen",
-      "site": "google.com/+BradGreen"
+      "username": "ndanielsen",
+      "name": "Nathan Danielsen",
+      "bio": "I am an aspiring full stack data scientist",
+      "twitter_handle": "@ndanielsen",
+      "site": "somesite.com/nathandanielsen"
     });
 
     User.findOrCreate({
-      "username": "Meyer the Eric",
-      "name": "Eric A. Meyer",
-      "bio": "Web standards | (X)HTML | CSS | microformats | community | writing | speaking | signing man.",
+      "username": "necaris",
+      "name": "Rami Chowdhury",
+      "bio": "Pythonista and Full Stack Dev at Continuum",
       "twitter_handle": "@meyerweb",
-      "site": "meyerweb.com"
+      "site": "continuum.com"
     });
 
     User.findOrCreate({
-      "username": "GP",
-      "name": "Gregg Pollack",
-      "bio": "Founder of Envy Labs, Code School, Orlando Ruby Users Group, BarCamp Orlando, and the Orlando Tech Events newsletter.",
-      "twitter_handle": "@greggpollack",
-      "site": "EnvyLabs.com"
+      "username": "PG",
+      "name": "Prashant Gangadharan",
+      "bio": "Technology Manager @ Wynyard Group USA",
+      "twitter_handle": "@pgangadharan",
+      "site": "wynyardgroup.com"
     });
 
     User.findOrCreate({
-      "username": "r_higley",
-      "name": "Rachel Higley",
-      "bio": "A web developer located in central florida",
-      "twitter_handle": "@RachelHigley",
+      "username": "clopez",
+      "name": "Claudia Lopez",
+      "bio": "Aspiring physician",
+      "twitter_handle": "@claudialopez",
       "site": ""
     });
 
     User.findOrCreate({
-      "username": "zach",
-      "name": "Zachary Nicoll",
+      "username": "Lnunes",
+      "name": "Lauriston Nunes",
       "bio": "Bio sections always intimidate me. I can never think of anything to say that will achieve that awe inspiring effect I want it to have.",
-      "twitter_handle": "@turtleguyy",
-      "site": "zacharynicoll.com"
+      "twitter_handle": "@lnunes",
+      "site": "lnunes.com"
     });
 
     User.findOrCreate({
-      "username": "renz",
-      "name": "Adam Rensel","bio": "Web Developer at @envylabs and @codeschool",
-      "twitter_handle": "@adamrensel",
-      "site": "adamrensel.com"}).success(function(user){
+      "username": "jharms",
+      "name": "John Harms",
+      "bio": "GWU grad, solutions consultant at Wynyard",
+      "twitter_handle": "@jharms",
+      "site": "jharms.com"}).success(function(user){
 
     // Note Types
     Category.findOrCreate({"name": "Testing", "icon": "tumblr"});
@@ -150,39 +151,6 @@ module.exports = {
       });
     });
 
-    User.findOrCreate({
-      "username": "OlivierLacan",
-      "name": "Olivier Lacan",
-      "bio": "Software bricoleur at @codeschool, word wrangler, scientific skeptic, and logic lumberjack.",
-      "twitter_handle": "@olivierlacan",
-      "site": "olivierlacan.com"
-    });
-
-    User.findOrCreate({
-      "username": "theSmith",
-      "name": "Andrew Smith",
-      "bio": "iOS & Web Developer at @intelity. @fullsail graduate.",
-      "twitter_handle": "@fullsailor",
-      "site": "fullsailor.com"
-    });
-
-    User.findOrCreate({
-      "username": "DrewBarontini",
-      "password": encrypt.encryptPassword("secret").encryptedPassword,
-      "name": "Drew Barontini",
-      "bio": "Front-end developer @codeschool, descendant of @envylabs, real-life extrovert, internet introvert.",
-      "twitter_handle": "@drewbarontini",
-      "site": "drewbarontini.com"
-    });
-
-    User.findOrCreate({
-     "username": "JordanWade",
-     "password": encrypt.encryptPassword("secret").encryptedPassword,
-     "name": "Jordan Wade",
-     "bio": "Designer, Illustrator, and Front-End Developer @codeschool",
-     "twitter_handle": "@jjordanwade",
-     "site": "jamesjordanwade.com"
-    });
 
     User.findOrCreate({
      "username": "AlyssaNicoll",
